@@ -44,6 +44,8 @@ This project consists of a series of Python scripts designed to run on an AWS EC
 
 ## Additional Information
 
+![Rendering Process Flow](flow.png)
+
 - The scripts are designed to handle multiple STL files in sequence, processing each one and uploading the results to a specified S3 bucket.
 - Ensure that your AWS credentials and permissions are correctly configured to allow access to the necessary S3 buckets.
 - The rendering process is optimized for GPU usage, so ensure that your EC2 instance is properly configured to utilize the GPU.
